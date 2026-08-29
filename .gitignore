@@ -1,0 +1,25 @@
+# CMake 生成的构建目录和文件
+build/
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+
+# 生成的 Makefile（如果你使用 Make 作为生成器）
+Makefile
+
+# 编译产生的中间文件和可执行文件
+*.o
+*.obj
+*.exe
+*.out
+*.a
+*.lib
+*.so
+*.dylib
+*.dll
+
+# 编辑器临时文件
+*.swp
+*~
+.vscode/
+.idea/

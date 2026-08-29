@@ -1,0 +1,10 @@
+package main;
+
+import std.io;
+def int main(){
+    let int a = 1;
+    let int b = 2;
+    let int c = a+b;
+    std.io.print(a,"+",b,"=",c);
+    return 0;
+}

@@ -1,0 +1,7 @@
+{
+  "app_description": "The main file of falloyc",
+  "verbose_desc": "Enable verbose output",
+  "output_desc": "Output file location",
+  "required_label": "(REQUIRED)",
+  "optional_label": "(OPTIONAL)"
+}

@@ -1,0 +1,7 @@
+{
+  "app_description":"Falloyc主程序",
+  "verbose_desc": "开启详细输出模式",
+  "output_desc": "输出文件位置",
+  "required_label": "(必填)",
+  "optional_label": "(可选)"
+}

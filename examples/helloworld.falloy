@@ -1,0 +1,7 @@
+package main;
+
+import std.io;
+def int main(){
+	std.io.print("Hello World!");
+	return 0;
+}

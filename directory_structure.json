@@ -1,0 +1,308 @@
+{
+  "name": ".",
+  "type": "directory",
+  "children": [
+    {
+      "name": ".gitignore",
+      "type": "file"
+    },
+    {
+      "name": "CMakeLists.txt",
+      "type": "file"
+    },
+    {
+      "name": "LICENSES",
+      "type": "directory",
+      "children": []
+    },
+    {
+      "name": "directory_structure.json",
+      "type": "file"
+    },
+    {
+      "name": "docs",
+      "type": "directory",
+      "children": [
+        {
+          "name": "rules_expectations_en.md",
+          "type": "file"
+        },
+        {
+          "name": "rules_expectations_zh.md",
+          "type": "file"
+        },
+        {
+          "name": "spec.md",
+          "type": "file"
+        }
+      ]
+    },
+    {
+      "name": "examples",
+      "type": "directory",
+      "children": [
+        {
+          "name": "tests",
+          "type": "directory",
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "include",
+      "type": "directory",
+      "children": [
+        {
+          "name": "CLI11.hpp",
+          "type": "file"
+        },
+        {
+          "name": "nlohmann",
+          "type": "directory",
+          "children": [
+            {
+              "name": "json.hpp",
+              "type": "file"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "index.py",
+      "type": "file"
+    },
+    {
+      "name": "lib",
+      "type": "directory",
+      "children": []
+    },
+    {
+      "name": "locales",
+      "type": "directory",
+      "children": [
+        {
+          "name": "en-US.json",
+          "type": "file"
+        },
+        {
+          "name": "zh-CN.json",
+          "type": "file"
+        }
+      ]
+    },
+    {
+      "name": "modules",
+      "type": "directory",
+      "children": [
+        {
+          "name": "std",
+          "type": "directory",
+          "children": [
+            {
+              "name": ".index",
+              "type": "directory",
+              "children": []
+            },
+            {
+              "name": "core",
+              "type": "directory",
+              "children": []
+            },
+            {
+              "name": "error",
+              "type": "directory",
+              "children": [
+                {
+                  "name": "runtime_error.cpp",
+                  "type": "file"
+                }
+              ]
+            },
+            {
+              "name": "falloy.toml",
+              "type": "file"
+            },
+            {
+              "name": "io",
+              "type": "directory",
+              "children": [
+                {
+                  "name": "console.cpp",
+                  "type": "file"
+                },
+                {
+                  "name": "file.cpp",
+                  "type": "file"
+                },
+                {
+                  "name": "read.cpp",
+                  "type": "file"
+                },
+                {
+                  "name": "write.cpp",
+                  "type": "file"
+                }
+              ]
+            },
+            {
+              "name": "math",
+              "type": "directory",
+              "children": [
+                {
+                  "name": "decimal.cpp",
+                  "type": "file"
+                },
+                {
+                  "name": "fixed_point.cpp",
+                  "type": "file"
+                },
+                {
+                  "name": "fraction.cpp",
+                  "type": "file"
+                },
+                {
+                  "name": "unique_long.cpp",
+                  "type": "file"
+                }
+              ]
+            },
+            {
+              "name": "rc",
+              "type": "directory",
+              "children": []
+            },
+            {
+              "name": "types",
+              "type": "directory",
+              "children": [
+                {
+                  "name": "map.cpp",
+                  "type": "file"
+                },
+                {
+                  "name": "string.cpp",
+                  "type": "file"
+                },
+                {
+                  "name": "vector.cpp",
+                  "type": "file"
+                }
+              ]
+            },
+            {
+              "name": "weak",
+              "type": "directory",
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "src",
+      "type": "directory",
+      "children": [
+        {
+          "name": "backend",
+          "type": "directory",
+          "children": [
+            {
+              "name": "llvm_backend.cpp",
+              "type": "file"
+            },
+            {
+              "name": "llvm_backend.h",
+              "type": "file"
+            }
+          ]
+        },
+        {
+          "name": "common",
+          "type": "directory",
+          "children": [
+            {
+              "name": "log.h",
+              "type": "file"
+            },
+            {
+              "name": "utf8.h",
+              "type": "file"
+            }
+          ]
+        },
+        {
+          "name": "falloyd",
+          "type": "directory",
+          "children": [
+            {
+              "name": "server.cpp",
+              "type": "file"
+            }
+          ]
+        },
+        {
+          "name": "frontend",
+          "type": "directory",
+          "children": [
+            {
+              "name": "lexer.cpp",
+              "type": "file"
+            },
+            {
+              "name": "parser.cpp",
+              "type": "file"
+            }
+          ]
+        },
+        {
+          "name": "main",
+          "type": "directory",
+          "children": [
+            {
+              "name": "falloyc.cpp",
+              "type": "file"
+            },
+            {
+              "name": "repl.cpp",
+              "type": "file"
+            }
+          ]
+        },
+        {
+          "name": "middle",
+          "type": "directory",
+          "children": []
+        },
+        {
+          "name": "package",
+          "type": "directory",
+          "children": []
+        },
+        {
+          "name": "pkgman",
+          "type": "directory",
+          "children": [
+            {
+              "name": "fetch.h",
+              "type": "file"
+            },
+            {
+              "name": "lockfile.h",
+              "type": "file"
+            },
+            {
+              "name": "resolve.h",
+              "type": "file"
+            }
+          ]
+        },
+        {
+          "name": "resource",
+          "type": "directory",
+          "children": []
+        }
+      ]
+    }
+  ]
+}

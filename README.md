@@ -10,7 +10,7 @@ If you want to get more information, please see `docs/spec.md` 与 `docs/rules_e
 
 Source code is co-maintained by official core members and the community.
 
--  **许可证/Licensing:**
+**许可证/Licensing:**
 
 - 采用Mulan PSL v2 or Apache 2.0:大部分
 - Apache 2.0 License with LLVM Exception :与LLVM交互
